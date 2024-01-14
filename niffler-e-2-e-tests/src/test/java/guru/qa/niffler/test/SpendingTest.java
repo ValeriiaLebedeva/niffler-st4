@@ -18,7 +18,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class SpendingTest extends BaseWebTest {
 
   static {
-    Configuration.browserSize = "1980x1024";
+    Configuration.browserSize = "1980x1025";
   }
 
   @BeforeEach
