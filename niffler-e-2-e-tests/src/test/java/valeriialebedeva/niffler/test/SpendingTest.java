@@ -1,12 +1,19 @@
 package valeriialebedeva.niffler.test;
 
 import org.junit.jupiter.api.Test;
+import valeriialebedeva.niffler.jupiter.GenerateCategory;
 import valeriialebedeva.niffler.jupiter.GenerateSpend;
+import valeriialebedeva.niffler.model.CategoryJson;
 import valeriialebedeva.niffler.model.CurrencyValues;
 import valeriialebedeva.niffler.model.SpendJson;
 
 
 public class SpendingTest extends TestBase{
+
+  @GenerateCategory(
+          username = "duck",
+          category = "Путешествия"
+  )
 
   @GenerateSpend(
       username = "duck",
