@@ -21,7 +21,7 @@ public class TestBase {
         welcomePage.openPage()
                 .clickOnTheLoginBtn();
 
-        loginPage.setNameValue("duck")
+        loginPage.setNameValue("lera")
                 .setPassValue("12345")
                 .clickOnTheSubmitBtn();
     }

@@ -6,7 +6,6 @@ import retrofit2.http.POST;
 import valeriialebedeva.niffler.model.SpendJson;
 
 public interface SpendApi {
-
   @POST("/addSpend")
   Call<SpendJson> addSpend(@Body SpendJson spend);
 }
