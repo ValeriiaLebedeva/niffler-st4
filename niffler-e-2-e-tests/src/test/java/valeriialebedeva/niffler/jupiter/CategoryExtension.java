@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import static valeriialebedeva.niffler.jupiter.SpendExtension.NAMESPACE;
 
 public class CategoryExtension implements BeforeEachCallback, ParameterResolver {
     public static final ExtensionContext.Namespace NAMESPACE
